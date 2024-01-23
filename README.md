@@ -1,0 +1,2 @@
+# PlayCryptos
+Crypto Trading Simulator
