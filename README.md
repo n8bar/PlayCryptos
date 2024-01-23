@@ -1,21 +1,21 @@
 # PlayCryptos
 
 ## Overview
-PlayCryptos is a cutting-edge crypto trading simulator web application designed to offer a real-world trading experience without financial risk. This platform serves both educational and entertainment purposes, allowing users to experiment with crypto trading strategies in a simulated environment.  
+PlayCryptos is a simple crypto trading simulator web application designed to offer a real-world trading experience without financial risk. This platform serves both educational and entertainment purposes, allowing users to experiment with crypto trading strategies in a simulated environment.  
   &nbsp;  
   &nbsp;  
 ## Features to be added soon
 soon is a relative term.
 - **Real-time Price Fetching**: Live crypto market data.
-- **User Management**: Portfolio management for each user.
-- **Graphical Dashboard**: Intuitive and informative visualizations of market trends and personal performance.
+- **Portfolios**: A virtual portfolio for each user.
+- **User Dashboard**: Simple visualizations of market trends and personal performance.
   &nbsp;  
   &nbsp;  
 ## Future Enhancement Ideas
 ─a bit further down the road. These are very subject to change or go bye-bye
-- Integration of stock market trading.
-- Implementation of backtesting tools.
-- Addition of social features to foster community interaction.  
+- Backtesting tools.
+- Social features to foster community interaction.  
+- Stocks
 - Gamification
 - Educational Content
 - Analysis Tools  
