@@ -1,0 +1,19 @@
+{
+  "name": "playcryptos",
+  "version": "0.0.0",
+  "description": "Crypto Trading Simulator",
+  "main": "index.js",
+  "homepage": "https://playcryptos.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto",
+    "trading",
+    "simulation",
+    "web-app",
+    "play"
+  ],
+  "author": "n8bar",
+  "license": "MIT"
+}
