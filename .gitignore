@@ -1,3 +1,6 @@
+#Windows Shortcuts
+*.lnk
+
 # Logs
 logs
 *.log
