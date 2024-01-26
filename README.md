@@ -31,4 +31,4 @@ Pull requests may or may not be considered but don't put undue pressure on me ab
   &nbsp;  
   &nbsp;  
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.  
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.  
