@@ -2,19 +2,26 @@ const express = require('express');
 const app = express();
 require('dotenv').config();
 
-/*const mongoose = require('mongoose');
+const mariadb = require('mariadb');
 
-mongoose.connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+const pool = mariadb.createPool({
+    host: 'localhost',
+    user: process.env.MARIADB_USER,
+    password: process.env.MARIADB_PASSWORD,
+    database: process.env.MARIADB_DATABASE
 });
 
-const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function() {
-    console.log('Connected to MongoDB');
-});
-/**/
+// Connect and check for errors
+pool.getConnection()
+    .then(conn => {
+        console.log("Connected to MariaDB!");
+        conn.release(); // Release connection back to pool
+    })
+    .catch(err => {
+        console.error("Unable to connect to MariaDB:", err);
+    });
+
+
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
